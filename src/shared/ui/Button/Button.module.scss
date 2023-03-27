@@ -1,0 +1,27 @@
+.Button {
+    border-radius: 6px;
+    padding: 16px;
+    font: var(--font-m);
+    font-weight: var(--font-weight-m);
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.primary {
+    border: 1px solid #E2E3E5;
+    background: #FFF;
+    &:focus, &:hover {
+        border: 2px solid var(--blue-color);
+        border-radius: 6px;
+    }
+}
+
+.secondary {
+    background: var(--blue-color);
+    color: #FFF;
+}
+
+.big {
+    padding: 24px;
+}

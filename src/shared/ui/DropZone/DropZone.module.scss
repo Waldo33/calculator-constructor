@@ -1,0 +1,47 @@
+.DropZone {
+    width: 100%;
+    border: 2px dashed #C4C4C4;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+}
+
+.title {
+    font: var(--font-m);
+    font-weight: var(--font-weight-m);
+    color: var(--blue-color);
+}
+
+.text {
+    font: var(--font-s);
+    font-weight: var(--font-weight-s);
+    color: #6B7280;
+    width: 100px;
+}
+
+.image {
+    margin-bottom: 12px;
+}
+
+.itemsGrid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .cell {
+        height: 100%;
+    }
+}
+
+.isDrag {
+    background: #F0F9FF;
+}

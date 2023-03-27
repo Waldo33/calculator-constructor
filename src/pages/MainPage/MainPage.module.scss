@@ -1,0 +1,50 @@
+.MainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    height: 448px;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 240px;
+    height: 100%;
+}
+
+.result {
+    width: 240px;
+    height: 100%;
+    position: relative;
+}
+
+.switcher {
+    position: absolute;
+    top: -68px;
+    right: 0;
+    left: 0;
+}
+
+.itemsGrid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    .cell {
+        height: 100%;
+    }
+    .gridItem {
+        padding: 4px;
+    }
+}
+
+.disable {
+    pointer-events: none;
+}

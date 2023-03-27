@@ -1,0 +1,38 @@
+.Switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    background: #F3F4F6;
+    border-radius: 6px;
+    padding: 2px;
+    display: flex;
+    width: 100%;
+}
+
+.tab {
+    padding: 8px 11px;
+    border: none;
+    background: transparent;
+    outline: none;
+    svg {
+        stroke: #4D5562;
+    }
+    .innertab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.tab.selected {
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 5px;
+    svg {
+        stroke: var(--blue-color);
+    }
+}
